@@ -1,0 +1,9 @@
+# CSVideoNet
+
+0.25_196_ExtractFrame.sh is used to extract frames from videos.
+generateTrainCNN.m is used to generate image blocks for training CNN1(Background CNN).
+/caffe/model/crX contains all the necessary file for training CNN1.
+
+extractFeatures_5_25.m is used to extract the intermediate feature extracted by CNN1. 
+
+/model contains all the files for training the whole framework. The intermediate feature captured by CNN is used as input for CNN1, the pre-trained CNN1 is further trained with the whole framework. The original image blocks is the input for CNN2, CNN2 is trained from scratch.
