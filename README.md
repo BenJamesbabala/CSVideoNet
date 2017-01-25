@@ -1,4 +1,5 @@
 # CSVideoNet
+This is the implementation of the paper "CSVideoNet: A Recurrent Convolutional Neural Network for Compressive Sensing Video Reconstruction"(https://arxiv.org/abs/1612.05203).
 
 1. 0.25_196_ExtractFrame.sh is used to extract frames from videos.
 2. generateTrainCNN.m is used to generate image blocks for training CNN1(Background CNN).
